@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/pembungkus"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="7dp"
+            android:layout_marginRight="16.7dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="1dp"
+            app:cardElevation="5dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="88.7dp"
+                        android:scaleType="centerCrop"/>
+
+
+
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14.3sp"
+                        android:textColor="#000000"
+                        android:text="Tutorial CRUD PHP"
+                        android:fontFamily="@font/nunito_regular"/>
+
+                <LinearLayout
+                        android:weightSum="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:id="@+id/bahasa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="10.3sp"
+                            android:textColor="#000000"
+                            android:text="Tanggal"
+                            android:fontFamily="@font/nunito_regular"/>
+
+                    <TextView
+                            android:layout_marginStart="10dp"
+                            android:id="@+id/kategori"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="10.3sp"
+                            android:textColor="#000000"
+                            android:text="Kategori"
+                            android:fontFamily="@font/nunito_regular"/>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                    <TextView
+                            android:id="@+id/tanggal"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="14-03-2020"
+                            android:textSize="10.3sp"
+                            android:fontFamily="@font/nunito_regular"
+                            android:textColor="#747171"/>
+
+
+                    <ImageView
+                            android:id="@+id/favorite"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/ic_favorite_border"
+                            android:layout_gravity="right"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
