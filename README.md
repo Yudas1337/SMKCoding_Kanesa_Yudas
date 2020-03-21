@@ -4,9 +4,13 @@ TechPedia merupakan platform belajar online khususnya di bidang IT yang dikemban
 
 # Used Features
 * Retrofit
+* OkHttp
 * Picasso
 * Shimmer
 * SQLite Database
+* Butterknife
+* CircleImageView
+* GifDrawable
 
 # Preview TechPedia : 
 ![1](https://user-images.githubusercontent.com/49679669/77226787-8ef29c00-6bad-11ea-9a75-38511d0220b4.jpeg)
