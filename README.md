@@ -7,10 +7,6 @@ TechPedia merupakan platform belajar online khususnya di bidang IT yang dikemban
 * Picasso
 * Shimmer
 * SQLite Database
-* terminal : urxvt
-* terminal font : Hack
-* font     : Fira Code Light 10
-* accesories : plank
 
 # Preview TechPedia : 
 ![1](https://user-images.githubusercontent.com/49679669/77226787-8ef29c00-6bad-11ea-9a75-38511d0220b4.jpeg)
