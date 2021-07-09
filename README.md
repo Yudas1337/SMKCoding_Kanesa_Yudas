@@ -13,6 +13,7 @@ TechPedia merupakan platform belajar online khususnya di bidang IT yang dikemban
 * GifDrawable
 
 # Preview TechPedia : 
+![0](screenshot.png)
 ![1](https://user-images.githubusercontent.com/49679669/77226787-8ef29c00-6bad-11ea-9a75-38511d0220b4.jpeg)
 
 ![2](https://user-images.githubusercontent.com/49679669/77226789-9154f600-6bad-11ea-9a9f-8c2528d5b828.jpeg)
